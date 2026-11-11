@@ -1,0 +1,54 @@
+exp	sample_endpoint	strain_details	Condition_normalized
+GLV	GLV_1_65		Unclear
+GLV	GLV_2_65		Unclear
+GLV	GLV_3_65		Unclear
+GLV	GLV_4_67		Unclear
+GLV	GLV_5_66		Unclear
+GLV	GLV_6_67		Unclear
+GLV	GLV_8_66		Unclear
+GLV	GLV_9_66		Unclear
+MS56_ALE_2022	MS56_ALE_2022_10_100		Unclear
+MS56_ALE_2022	MS56_ALE_2022_11_101		Unclear
+MS56_ALE_2022	MS56_ALE_2022_12_99		Unclear
+MS56_ALE_2022	MS56_ALE_2022_13_104		Unclear
+MS56_ALE_2022	MS56_ALE_2022_14_101		Unclear
+MS56_ALE_2022	MS56_ALE_2022_15_101		Unclear
+MS56_ALE_2022	MS56_ALE_2022_16_99		Unclear
+MS56_ALE_2022	MS56_ALE_2022_1_101		Unclear
+MS56_ALE_2022	MS56_ALE_2022_2_202		Unclear
+MS56_ALE_2022	MS56_ALE_2022_3_106		Unclear
+MS56_ALE_2022	MS56_ALE_2022_4_1010		Unclear
+MS56_ALE_2022	MS56_ALE_2022_5_207		Unclear
+MS56_ALE_2022	MS56_ALE_2022_6_104		Unclear
+MS56_ALE_2022	MS56_ALE_2022_7_102		Unclear
+MS56_ALE_2022	MS56_ALE_2022_8_99		Unclear
+MS56_ALE_2022	MS56_ALE_2022_9_1012		Unclear
+STE_BOP	STE_BOP_10_21	BOP368 (DELTA pflABfocA ldhA aceEF mdh pflDC pfkA pfkB)	Gene_deletion
+STE_BOP	STE_BOP_11_24	BOP368 (DELTA pflABfocA ldhA aceEF mdh pflDC pfkA pfkB)	Gene_deletion
+STE_BOP	STE_BOP_13_56	BOP394 (DELTA ldhA adhE mdh mhpF ackA)	Gene_deletion
+STE_BOP	STE_BOP_14_56	BOP394 (DELTA ldhA adhE mdh mhpF ackA)	Gene_deletion
+STE_BOP	STE_BOP_15_63	BOP394 (DELTA ldhA adhE mdh mhpF ackA)	Gene_deletion
+STE_BOP	STE_BOP_16_59	BOP394 (DELTA ldhA adhE mdh mhpF ackA)	Gene_deletion
+STE_BOP	STE_BOP_5_72	CL4A (DELTA pflB, adhE, frdA,ldhA)	Gene_deletion
+STE_BOP	STE_BOP_6_76	CL4A (DELTA pflB, adhE, frdA,ldhA)	Gene_deletion
+STE_BOP	STE_BOP_7_78	CL4A (DELTA pflB, adhE, frdA,ldhA)	Gene_deletion
+STE_BOP	STE_BOP_8_62	CL4A (DELTA pflB, adhE, frdA,ldhA)	Gene_deletion
+STE_BOP	STE_BOP_9_25	BOP368 (DELTA pflABfocA ldhA aceEF mdh pflDC pfkA pfkB)	Gene_deletion
+stALE	stALE_10_131		Unclear
+stALE	stALE_11_119		Unclear
+stALE	stALE_12_136		Unclear
+stALE	stALE_13_121		Unclear
+stALE	stALE_14_133		Unclear
+stALE	stALE_15_117		Unclear
+stALE	stALE_16_134		Unclear
+stALE	stALE_17_118	BOP27	Unclear
+stALE	stALE_18_130		Unclear
+stALE	stALE_1_99		Unclear
+stALE	stALE_2_104		Unclear
+stALE	stALE_3_88		Unclear
+stALE	stALE_4_88		Unclear
+stALE	stALE_5_105		Unclear
+stALE	stALE_6_106		Unclear
+stALE	stALE_7_103		Unclear
+stALE	stALE_8_84		Unclear
+stALE	stALE_9_109		Unclear

@@ -1,0 +1,36 @@
+# Environment A: Figures 1, 3, 5 and S2 (notebooks Figure_1, Figure_3, Figure_5 and Figure_S2).
+# Versions are pinned because the figure text is rendered by the FreeType copy inside the
+# matplotlib wheel, so another matplotlib build or version moves text pixels.
+name: ale-paper-a
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.9.20
+  - pip
+  - ipykernel=6.29.5
+  - ipython=8.15.0
+  - matplotlib-inline=0.1.7
+  - jupyter_client=8.6.3
+  - jupyter_core=5.7.2
+  - python-dateutil=2.9.0.post0
+  - packaging=24.2
+  - six=1.16.0
+  - zipp=3.21.0
+  - pip:
+      - numpy==2.0.2
+      - pandas==2.2.3
+      - scipy==1.13.1
+      - matplotlib==3.9.4
+      - pillow==11.1.0
+      - contourpy==1.3.0
+      - cycler==0.12.1
+      - fonttools==4.56.0
+      - kiwisolver==1.4.7
+      - pyparsing==3.2.1
+      - importlib-resources==6.5.2
+      - pytz==2025.1
+      - tzdata==2025.1
+      - nbconvert==7.17.1
+      - nbclient==0.10.2
+      - nbformat==5.10.4

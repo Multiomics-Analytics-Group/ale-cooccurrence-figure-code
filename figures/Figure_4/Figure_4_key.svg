@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="786.585pt" height="151.2825pt" viewBox="0 0 786.585 151.2825" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-11T11:03:52.618709</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 151.2825 
+L 786.585 151.2825 
+L 786.585 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="legend_1">
+   <g id="line2d_1">
+    <defs>
+     <path id="md7f8569491" d="M 0 11 
+C 2.917234 11 5.715379 9.840971 7.778175 7.778175 
+C 9.840971 5.715379 11 2.917234 11 0 
+C 11 -2.917234 9.840971 -5.715379 7.778175 -7.778175 
+C 5.715379 -9.840971 2.917234 -11 0 -11 
+C -2.917234 -11 -5.715379 -9.840971 -7.778175 -7.778175 
+C -9.840971 -5.715379 -11 -2.917234 -11 0 
+C -11 2.917234 -9.840971 5.715379 -7.778175 7.778175 
+C -5.715379 9.840971 -2.917234 11 0 11 
+z
+" style="stroke: #6e7a85; stroke-width: 1.6"/>
+    </defs>
+    <g>
+     <use xlink:href="#md7f8569491" x="40.8" y="26.63625" style="fill: #ffffff; stroke: #6e7a85; stroke-width: 1.6"/>
+    </g>
+   </g>
+   <g id="text_1">
+    <text style="font: 24px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start" x="84" y="35.03625" transform="rotate(-0 84 35.03625)">Fisher's exact test</text>
+   </g>
+   <g id="line2d_2">
+    <defs>
+     <path id="m99c3c8fa27" d="M 0 11 
+C 2.917234 11 5.715379 9.840971 7.778175 7.778175 
+C 9.840971 5.715379 11 2.917234 11 0 
+C 11 -2.917234 9.840971 -5.715379 7.778175 -7.778175 
+C 5.715379 -9.840971 2.917234 -11 0 -11 
+C -2.917234 -11 -5.715379 -9.840971 -7.778175 -7.778175 
+C -9.840971 -5.715379 -11 -2.917234 -11 0 
+C -11 2.917234 -9.840971 5.715379 -7.778175 7.778175 
+C -5.715379 9.840971 -2.917234 11 0 11 
+z
+" style="stroke: #6e7a85"/>
+    </defs>
+    <g>
+     <use xlink:href="#m99c3c8fa27" x="40.8" y="73.86375" style="fill: #6e7a85; stroke: #6e7a85"/>
+    </g>
+   </g>
+   <g id="text_2">
+    <text style="font: 24px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start" x="84" y="82.26375" transform="rotate(-0 84 82.26375)">DISCOVER</text>
+   </g>
+   <g id="patch_2">
+    <path d="M 16.8 129.49125 
+L 64.8 129.49125 
+L 64.8 112.69125 
+L 16.8 112.69125 
+z
+" style="fill: #458b57"/>
+   </g>
+   <g id="text_3">
+    <text style="font: 24px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start" x="84" y="129.49125" transform="rotate(-0 84 129.49125)">Gene mutated in an endpoint</text>
+   </g>
+   <g id="patch_3">
+    <path d="M 486.18375 35.03625 
+L 534.18375 35.03625 
+L 534.18375 18.23625 
+L 486.18375 18.23625 
+z
+" style="fill: #8b2635"/>
+   </g>
+   <g id="text_4">
+    <text style="font: 24px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start" x="553.38375" y="35.03625" transform="rotate(-0 553.38375 35.03625)">Co-occurrence</text>
+   </g>
+   <g id="patch_4">
+    <path d="M 486.18375 82.26375 
+L 534.18375 82.26375 
+L 534.18375 65.46375 
+L 486.18375 65.46375 
+z
+" style="fill: #2f6e8f"/>
+   </g>
+   <g id="text_5">
+    <text style="font: 24px 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start" x="553.38375" y="82.26375" transform="rotate(-0 553.38375 82.26375)">Mutual exclusivity</text>
+   </g>
+  </g>
+ </g>
+</svg>

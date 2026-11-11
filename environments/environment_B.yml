@@ -1,0 +1,33 @@
+# Environment B: Figures 4, 6 and S1 and the Figure S2 power sweep (Figure_4, Figure_6.py,
+# svg_for_illustrator.py, Figure_S1 and Figure_S2_power_sweep.py). Versions are pinned because the
+# figure text is rendered by matplotlib through the FreeType library it links to, so another
+# matplotlib or FreeType version moves text pixels.
+name: ale-paper-b
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.12.7
+  - numpy=1.26.4
+  - pandas=2.2.2
+  - scipy=1.13.1
+  - matplotlib-base=3.9.2
+  - freetype=2.12.1
+  - pillow=10.4.0
+  - contourpy=1.2.0
+  - cycler=0.11.0
+  - fonttools=4.51.0
+  - kiwisolver=1.4.5
+  - pyparsing=3.1.2
+  - python-dateutil=2.9.0.post0
+  - packaging=24.1
+  - pytz=2024.1
+  - six=1.16.0
+  - ipykernel=6.28.0
+  - ipython=8.27.0
+  - matplotlib-inline=0.1.6
+  - jupyter_client=8.6.0
+  - jupyter_core=5.7.2
+  - nbconvert-core=7.16.4
+  - nbclient=0.8.0
+  - nbformat=5.10.4

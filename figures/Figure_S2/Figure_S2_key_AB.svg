@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="414.855pt" height="67.54375pt" viewBox="0 0 414.855 67.54375" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-11T11:04:20.142105</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 67.54375 
+L 414.855 67.54375 
+L 414.855 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="legend_1">
+   <g id="line2d_1">
+    <path d="M 11.6 16.108281 
+L 21.5 16.108281 
+L 31.4 16.108281 
+" style="fill: none; stroke: #6baed6; stroke-width: 1.6; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font: 11px Arial, Helvetica, sans-serif; text-anchor: start" x="40.2" y="19.958281" transform="rotate(-0 40.2 19.958281)">Single pre-specified pair</text>
+   </g>
+   <g id="line2d_2">
+    <path d="M 11.6 32.804219 
+L 21.5 32.804219 
+L 31.4 32.804219 
+" style="fill: none; stroke: #08519c; stroke-width: 1.6; stroke-linecap: square"/>
+   </g>
+   <g id="text_2">
+    <text style="font: 11px Arial, Helvetica, sans-serif; text-anchor: start" x="40.2" y="36.654219" transform="rotate(-0 40.2 36.654219)">42C_Tenaillon correction family (m = 5,482 in A, 236 in B)</text>
+   </g>
+   <g id="patch_2">
+    <path d="M 11.6 53.656094 
+L 31.4 53.656094 
+L 31.4 45.956094 
+L 11.6 45.956094 
+z
+" style="fill: #d5dae0"/>
+   </g>
+   <g id="text_3">
+    <text style="font: 11px Arial, Helvetica, sans-serif; text-anchor: start" x="40.2" y="53.656094" transform="rotate(-0 40.2 53.656094)">Endpoint counts of the 141 analyzed experiments (median N = 5)</text>
+   </g>
+  </g>
+ </g>
+</svg>

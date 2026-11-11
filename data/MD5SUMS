@@ -1,0 +1,10 @@
+de35530f835144608027beb7aaf69b28  data/analysis/ecoli/all_experiments/pairwise_all_methods_gene.csv
+d6d48c7f4c080265b7abeefb60f182f0  data/analysis/ecoli/all_experiments/per_experiment_summary_gene.csv
+4b48386c5668dbf02c8017d24508755e  data/analysis/ecoli/matrices/gene/42C_Tenaillon_Ara_LTEE_strain_from_generation_2000_DM25_REL606gbk_stationary_42_/matrix.csv
+105049dfe8f28c8136ee90183ababa84  data/qc/ecoli/checkpoints/02_select_species_summary.json
+ef25ba03df9b235071369e95f314fb08  data/qc/ecoli/nonpublic/distinct_mutations.tsv
+d0edcef9222c4da46deded039cdb8840  data/qc/ecoli/nonpublic/endpoints.tsv
+7e0e0b43bbb141c7c6a43e195dabd204  data/qc/ecoli/nonpublic/gene_by_endpoint.tsv
+efb5bc85706d7afde4d35e9c1a20e388  data/qc/ecoli/nonpublic/mutation_types.tsv
+4c2ee27cd12146502a108d0dbc4c9fb1  data/qc/ecoli/qc_mutations.tsv
+68d3f317ca3ce30d0ef9165a8494ff44  data/qc/ecoli/qc_pipeline_report.tsv
