@@ -7,9 +7,9 @@ This folder holds the code that draws the figures of the article
 > Binhuan Sun, Adam M. Feist, Patrick V. Phaneuf, Alberto Santos.
 
 The figures are drawn from the outputs of the analysis pipeline
-[ale-cooccurrence-nf](https://github.com/Multiomics-Analytics-Group/ale-cooccurrence-nf). The pipeline
-outputs that the figures read are included in `data/` (for four experiments, only what the figures
-use, see [Data](#data)), so the figures can be rebuilt without running the pipeline.
+[ale-cooccurrence-mutual-exclusivity-nf](https://github.com/Multiomics-Analytics-Group/ale-cooccurrence-mutual-exclusivity-nf).
+The pipeline outputs that the figures read are included in `data/` (for four experiments, only what
+the figures use, see [Data](#data)), so the figures can be rebuilt without running the pipeline.
 
 ## Contents
 
@@ -109,8 +109,8 @@ carry their creation date.
 
 ## Data
 
-`data/` holds copies of six output files of ale-cooccurrence-nf from the run used for the article
-(commit `6835f2cc61def20df3619d05319a2744fbb7185b`, run on 2026-11-11 with
+`data/` holds copies of six output files of ale-cooccurrence-mutual-exclusivity-nf from the run used
+for the article (commit `6835f2cc61def20df3619d05319a2744fbb7185b`, run on 2026-11-11 with
 `nextflow run main.nf -params-file params/ecoli.yaml` in the pipeline's Docker image, on the
 pipeline's input data together with the ALEdb deposits of STE_BOP, GLV, stALE and MS56_ALE_2022,
 whose mutation data are not public). In these copies, `qc/ecoli/qc_mutations.tsv` has no rows of
@@ -205,8 +205,8 @@ identical to the ones used for the article, which `md5sum -c cache/MD5SUMS` chec
 ## How to cite
 
 If you use this code, please cite the article above, this code (`CITATION.cff` gives its citation
-data), the pipeline ale-cooccurrence-nf, ALEdb (Phaneuf et al. 2019), and STRING (Szklarczyk et
-al. 2023).
+data), the pipeline ale-cooccurrence-mutual-exclusivity-nf, ALEdb (Phaneuf et al. 2019), and STRING
+(Szklarczyk et al. 2023).
 
 ## License
 

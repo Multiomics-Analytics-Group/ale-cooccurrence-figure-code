@@ -15,8 +15,8 @@ The script refuses to write the cache unless every p_min it computes matches the
 pipeline stored in pairwise_all_methods_gene.csv.
 
 usage, from the folder that holds code/, data/ and cache/, in the pipeline's container image
-(built from the docker/ folder of the pipeline repository, ale-cooccurrence-nf, whose README
-also shows how to make the same environment with conda):
+(built from the docker/ folder of the pipeline repository, ale-cooccurrence-mutual-exclusivity-nf,
+whose README also shows how to make the same environment with conda):
   docker run --rm --user "$(id -u):$(id -g)" -v "$PWD:/work" -w /work -e KMP_DUPLICATE_LIB_OK=TRUE \
       ale-cooccurrence:dev python code/Figure_S1_nulls.py
 """

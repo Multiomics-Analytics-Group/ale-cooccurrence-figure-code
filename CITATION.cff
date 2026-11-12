@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it using the metadata from this file."
 type: software
-title: "ale-cooccurrence-figure-code: figure code for the ALE co-occurrence and mutual exclusivity article"
+title: "ale-cooccurrence-figures: figure code for the ALE co-occurrence and mutual exclusivity article"
 authors:
   - given-names: Binhuan
     family-names: Sun
@@ -11,14 +11,15 @@ authors:
     family-names: Phaneuf
   - given-names: Alberto
     family-names: Santos
-repository-code: "https://github.com/Multiomics-Analytics-Group/ale-cooccurrence-figure-code"
+repository-code: "https://github.com/Multiomics-Analytics-Group/ale-cooccurrence-figures"
 license: MIT
 abstract: >-
   The code that draws the figures of the article "A statistical framework for
   identifying candidate genetic interactions from adaptive laboratory evolution
-  data" from the outputs of the analysis pipeline ale-cooccurrence-nf. It comes
-  with two conda environments and the data it reads, so the figures can be
-  rebuilt without running the pipeline.
+  data" from the outputs of the analysis pipeline
+  ale-cooccurrence-mutual-exclusivity-nf. It comes with two conda environments
+  and the data it reads, so the figures can be rebuilt without running the
+  pipeline.
 keywords:
   - adaptive laboratory evolution
   - ALEdb
