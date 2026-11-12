@@ -130,13 +130,32 @@ Check all files with `md5sum -c data/MD5SUMS`.
 | `analysis/ecoli/all_experiments/per_experiment_summary_gene.csv` | one row per analyzed experiment |
 | `analysis/ecoli/matrices/gene/42C_Tenaillon_.../matrix.csv` | the gene by endpoint matrix of the 42C_Tenaillon experiment, read by `code/Figure_S1_nulls.py` |
 
-The mutation data come from ALEdb (Phaneuf et al. 2019, https://doi.org/10.1093/nar/gky983). The code
-is written for this run: to use another run of the pipeline, put its six files in `data/` (or set
-`DATA_DIR` in the first code cell of each notebook), rebuild both files in `cache/`, and check the
-values listed under "Values set in the code", which belong to this run. The notebooks of Figures 1,
-3, 4 and 5 take the four experiments from `data/qc/ecoli/nonpublic/` in this folder (`NONPUB_DIR`,
-in the same code cell as `DATA_DIR`), also when `DATA_DIR` points to another run, and stop if that
-run's `qc_mutations.tsv` has rows of any of them.
+A run of the pipeline at the commit above on its public input data, which leaves out the deposits of
+the four experiments, writes the same `qc/ecoli/qc_mutations.tsv` and the same 42C_Tenaillon matrix
+as these copies. Its `pairwise_all_methods_gene.csv` and `per_experiment_summary_gene.csv` have the
+same rows as these copies for every experiment other than the four. The commands under "Four
+experiments that are not public" in the pipeline's README give the same rows of the four experiments
+in these two tables, except for `n_input_rows` of the summary, which in their output counts one row
+per gene and endpoint instead of one per mutation. On another computer, some numbers in these two
+tables can differ in their later digits, as the pipeline's README notes. `qc_pipeline_report.tsv`
+and `02_select_species_summary.json` also count the mutation records of the four experiments, so a
+run without their deposits gives different numbers in these two files. The files in
+`qc/ecoli/nonpublic/` are computed from the mutation records of the four experiments. Of them, only
+`gene_by_endpoint.tsv` is also in the pipeline's input data, so the others cannot be rebuilt from
+the public input data.
+
+The mutation data come from ALEdb (Phaneuf et al. 2019, https://doi.org/10.1093/nar/gky983). Gene
+names in `data/` were standardized with the STRING v12.0 alias file of E. coli K-12 MG1655
+(https://string-db.org), which is under the Creative Commons Attribution 4.0 license (CC BY 4.0,
+https://creativecommons.org/licenses/by/4.0/). Please also cite STRING (Szklarczyk et al. 2023,
+https://doi.org/10.1093/nar/gkac1000) when you use them.
+
+The code is written for the article's run: to use another run of the pipeline, put its six files in
+`data/` (or set `DATA_DIR` in the first code cell of each notebook), rebuild both files in `cache/`,
+and check the values listed under "Values set in the code", which belong to this run. The notebooks
+of Figures 1, 3, 4 and 5 take the four experiments from `data/qc/ecoli/nonpublic/` in this folder
+(`NONPUB_DIR`, in the same code cell as `DATA_DIR`), also when `DATA_DIR` points to another run, and
+stop if that run's `qc_mutations.tsv` has rows of any of them.
 
 ## Precomputed values
 
@@ -185,10 +204,12 @@ identical to the ones used for the article, which `md5sum -c cache/MD5SUMS` chec
 
 ## How to cite
 
-If you use this code, please cite the article above, the pipeline ale-cooccurrence-nf, and ALEdb
-(Phaneuf et al. 2019).
+If you use this code, please cite the article above, this code (`CITATION.cff` gives its citation
+data), the pipeline ale-cooccurrence-nf, ALEdb (Phaneuf et al. 2019), and STRING (Szklarczyk et
+al. 2023).
 
 ## License
 
 The code is released under the MIT License (see `LICENSE`). The data in `data/` are derived from
-ALEdb. Please cite ALEdb when you use them.
+ALEdb, and their gene names were standardized with STRING (see [Data](#data)). Please cite ALEdb
+and STRING when you use them.
